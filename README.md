@@ -34,3 +34,14 @@ Docker containers are utilized to ensure the program's portability across variou
 ### 5-create backend server with Node.js (server.js) that make the project run on the server, 
 ### 6-integrate code to save data into a file, creating a storage mechanism
 ### 7-containe the project inside a docker container
+
+
+# how to use
+1-Clone the repository:
+  git clone https://github.com/soufiane-el-ouazzani/ChatGPT-API
+  cd name-repo
+2-Build the Docker image with cmd in the file:
+docker-compose build
+
+Run the Docker container in the same file
+docker-compose up
