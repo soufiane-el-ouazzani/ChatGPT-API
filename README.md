@@ -46,4 +46,5 @@ Docker containers are utilized to ensure the program's portability across variou
 
 Run the Docker container in the same file
 'docker-compose up'
-3-change the secrit key to: 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
+
+3-change the secrit key so you can get acces
