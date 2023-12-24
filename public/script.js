@@ -2,7 +2,6 @@ const inputText = document.getElementById("inputText");
 const btnSearch = document.getElementsByClassName("btn-search")[0];
 
 
-
 //query selector the container to load data
 const cards= document.getElementsByClassName("card-container")[0];
 
@@ -32,7 +31,7 @@ async function sendRequest(question){
   const res = await fetch("https://api.openai.com/v1/chat/completions", {
     method: "POST",
     headers: {
-      Authorization: "Bearer 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",
+      Authorization: `Bearer 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`,
       "Content-Type": "application/json"
     },
     body: JSON.stringify({
