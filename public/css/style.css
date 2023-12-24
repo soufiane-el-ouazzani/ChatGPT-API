@@ -1,0 +1,112 @@
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    margin: 50px 0 30px;
+    text-align: center;
+}
+
+.search-container {
+    display: flex;
+    background-color: transparent;
+    border: 1px solid #9fa4a8;
+    border-radius: 5px 0 0 5px;
+    margin: 40px 20%;
+    padding: 20px;
+    position: relative;
+    transition: 0.3s ease;
+}
+input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #9fa4a8;
+    font-size: 16px;
+    border-radius: 10px 0 0 10px;
+}
+  
+.btn-search {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-left: auto;
+    background-color: #666666;
+    color: #fff;
+    border: 8px;
+    cursor: pointer;
+}
+
+.card {
+    background-color: transparent;
+    border: 1px solid #9fa4a8;
+    border-radius: 10px;
+    margin: 15px 20%;
+    padding: 15px;
+    position: relative;
+    overflow: hidden;
+    transition: 0.3s ease;
+}
+
+.card.active {
+    background-color: #fff;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.1), 0 3px 6px rgba(0,0,0,0.1);
+}
+
+/* .card.active::before {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    color: yellow;
+    z-index: 0;
+    background-image: url('../img/message.png');
+} */
+
+.card-title {
+    margin: 0 35px 0 0;
+}
+
+.card-response {
+    display: none;
+    margin: 30px 0 0;
+}
+
+.card.active .card-response{
+    display: block;
+}
+
+.btn-show-x {
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    padding: 0;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    height: 30px;
+    width: 30px;
+}
+
+.btn-show-x .x {
+    display: none;
+}
+
+
+.active .btn-show-x .show {
+    display: none;
+}
+
+.active .btn-show-x .x {
+    display: block;
+    
+}
