@@ -38,8 +38,9 @@ Docker containers are utilized to ensure the program's portability across variou
 
 # how to use
 1-Clone the repository:
-  git clone [https://github.com/soufiane-el-ouazzani/ChatGPT-API](https://github.com/soufiane-el-ouazzani/ChatGPT-API/tree/master) \n
-  cd name-repo \n
+  git clone [https://github.com/soufiane-el-ouazzani/ChatGPT-API](https://github.com/soufiane-el-ouazzani/ChatGPT-API/tree/master) /n
+  cd name-repo /n
+  
 2-Build the Docker image with cmd in the file:
 docker-compose build
 
