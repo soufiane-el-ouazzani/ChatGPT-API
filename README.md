@@ -25,12 +25,12 @@ Docker containers are utilized to ensure the program's portability across variou
 
 
 
-# How i made this project ?
-### 1-shema showing the goal we want to achieve on a paiper
-### 2-a small UI using figma to show how the user interfce should looks like 
+# Project Creation Process
+### 1-shema showing the goal we want to achieve on a paper
+### 2-create small UI design in figma to show how the user interfce should looks like 
 ![figma_interface](https://github.com/soufiane-el-ouazzani/ChatGPT-API/blob/master/figma_interface/Screenshot%202023-12-24%20202807.png)
-### 3-an html boilet tamplate to make the strucure , and css for styling the interface
-### 4-a javascript code that do two main things send request to chatGPT API and handle the items on the page 
-### 5-a back end node js file called server.js that make the project run on the server, 
-### 6-add code to save the data in a file
+### 3-create HTML boilerplate to make the strucure , and CSS styling for the interface
+### 4-create JavaScript functionality that do two main things send request to chatGPT API and handle the items on  the webpage dynamically 
+### 5-create backend server with Node.js (server.js) that make the project run on the server, 
+### 6-integrate code to save data into a file, creating a storage mechanism
 ### 7-containe the project inside a docker container
