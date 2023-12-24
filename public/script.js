@@ -1,9 +1,7 @@
-
-
-// const btnExtendClose = document.querySelectorAll('.btn-show-x');
-// const lastElement = Array.from(btnExtendClose).pop();
 const inputText = document.getElementById("inputText");
 const btnSearch = document.getElementsByClassName("btn-search")[0];
+
+
 
 //query selector the container to load data
 const cards= document.getElementsByClassName("card-container")[0];
@@ -12,7 +10,6 @@ const cards= document.getElementsByClassName("card-container")[0];
 
 // handlle the X and show button 
 function chowandHide(lastElement){
-
     lastElement.addEventListener('click', () => {
       lastElement.parentNode.classList.toggle('active')
     })
@@ -20,7 +17,7 @@ function chowandHide(lastElement){
 
 
 
-//handlle te input
+//handlle the input
 async function submitQuestion(){
   btnSearch.addEventListener('click', () => {
     var question=inputText.value;
@@ -70,6 +67,9 @@ function submitData(answer, question) {
   addDataInHtml(answer,question)
 }
 
+
+
+//add the data to HTML
 function addDataInHtml(answer,question){
   const div = document.createElement('div');
   div.className="card"
