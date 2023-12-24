@@ -1,8 +1,10 @@
 # ChatGPT Web Interface
 This project provides a user-friendly web interface for interacting with the ChatGPT API.Users can input questions using HTML, CSS, and JavaScript, and the application processes these inputs, making requests to the ChatGPT API to retrieve answer data.
 
+
 # Project Overview
 The project consists of a web page interface allowing users to input questions. JavaScript handles user input and makes requests to the ChatGPT API. The backend, implemented in Node.js using server.js, serves as a file server to run the application on a server. The retrieved data is stored in a file named data.csv within the data folder.
+
 
 # Project Workflow
 
@@ -22,10 +24,11 @@ Simultaneously, the web page interface updates to display the fetched data. User
 Docker containers are utilized to ensure the program's portability across various machines. This allows the application to be easily deployed and run on different environments.
 
 
+
 # How i made this project ?
 ### 1-shema showing the goal we want to achieve on a paiper
 ### 2-a small UI using figma to show how the user interfce should looks like 
-![Screenshot](figma.png)
+![Screenshot](figma_interface/figma.png)
 ### 3-an html boilet tamplate to make the strucure , and css for styling the interface
 ### 4-a javascript code that do two main things send request to chatGPT API and handle the items on the page 
 ### 5-a back end node js file called server.js that make the project run on the server, 
