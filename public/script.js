@@ -32,7 +32,7 @@ async function sendRequest(question){
   const res = await fetch("https://api.openai.com/v1/chat/completions", {
     method: "POST",
     headers: {
-      Authorization: "Bearer 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",
+      Authorization: "Bearer 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",
       "Content-Type": "application/json"
     },
     body: JSON.stringify({
